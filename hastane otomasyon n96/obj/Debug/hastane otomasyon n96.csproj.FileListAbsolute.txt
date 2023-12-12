@@ -1,0 +1,21 @@
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\bin\Debug\hastane otomasyon n96.exe.config
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\bin\Debug\hastane otomasyon n96.exe
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\bin\Debug\hastane otomasyon n96.pdb
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\obj\Debug\hastane_otomasyon_n96.Form1.resources
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\obj\Debug\hastane_otomasyon_n96.Properties.Resources.resources
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.csproj.GenerateResource.cache
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.exe
+C:\Users\student\Desktop\HAYRI\10A\hastane otomasyon n96\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.pdb
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\bin\Debug\hastane otomasyon n96.exe.config
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\bin\Debug\hastane otomasyon n96.exe
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\bin\Debug\hastane otomasyon n96.pdb
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\obj\Debug\hastane_otomasyon_n96.Form1.resources
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\obj\Debug\hastane_otomasyon_n96.Properties.Resources.resources
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.csproj.GenerateResource.cache
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.exe
+C:\Users\User\Desktop\KORUMASIZ\sukeyna çelik\hastane otomasyon n96\obj\Debug\hastane otomasyon n96.pdb

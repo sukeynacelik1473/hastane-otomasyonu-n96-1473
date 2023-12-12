@@ -1,0 +1,84 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace hastane_otomasyon_n96
+{
+    public partial class Form1 : Form
+
+    {
+        BindingList<Hasta > hasatalar= new BindingList<Hasta >();
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Hasta hasta1 = new Hasta(1, "sukeyna çelik", "10245784545","göz", false ,new DateTime (2023,11,12));
+            Hasta hasta2 = new Hasta(2, "polat alemdar", "54546784545", "boğaz", true , new DateTime(2023, 12, 12));
+            Hasta hasta3 = new Hasta(3, "rabıa kılıç", "10245784545", "beyin nakli", false, new DateTime(2023, 11, 2));
+            Hasta hasta4 = new Hasta(4, "hayru yılbur ", "741545784545", "kulak", true , new DateTime(2023, 11, 5));
+            hasatalar.Add(hasta1);
+            hasatalar.Add(hasta2);  
+            hasatalar.Add(hasta3);
+            hasatalar.Add(hasta4);
+
+            dataGridView1.DataSource = hasatalar.ToList();
+
+        }
+       
+        private void btnEkle_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(txtId.Text);
+            string adsoyad = txtAd.Text;
+            string telefon = txtTelefon.Text;
+            string pol = cmbPolikinlik.Text;
+            bool sigorta = cbSigorta.Checked;
+            DateTime tarih = DateTime.Now;
+            Hasta hasta = new Hasta(id,adsoyad,telefon,pol,sigorta,tarih);
+
+            hasatalar.Add(hasta);
+
+            //dataGridView1.DataSource = hasatalar.ToList();//hastalar listesini datagril içine ekle
+
+            txtId.Clear();
+            txtAd.Clear();
+            txtTelefon.Clear();
+           
+        }
+
+        private void btnGuncelle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                txtId.Text =dataGridView1 .CurrentRow .Cells[0].Value .ToString();
+                txtAd .Text = dataGridView1.CurrentRow.Cells[1].Value.ToString()
+                /**/
+                cbSigorta.Checked = Convert.ToBoolean(dataGridView1.CurrentRow.Cells[4].Value); 
+                dataGridView1 .Value=Convert.ToDateTime (dataGridView1 .CurrentRow )
+
+            }
+            catch (Exception )
+            {
+                throw;       
+            }
+        }
+    }
+}
